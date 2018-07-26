@@ -49,6 +49,7 @@
     function handleCategoriesButtonClick() {
         $(document).on('click', '#categories button', function (e) {
             $('#filterResults').hide();
+            $('#membershipPlans').hide();
             $('#mostrecent').hide();
             $('#audio-library-content').show();
             switchBackToAudioLibraryTab();
@@ -150,12 +151,14 @@
 
         var audioLibraryContent = document.getElementById('audio-library-content');
         var filterResults = document.getElementById('filterResults');
+        var membershipPlans = document.getElementById('membershipPlans');
 
         // keyup event
         document.getElementsByName('custom_search')[0].addEventListener('keyup', function (e) {
             switchBackToAudioLibraryTab();
             filterResults.innerHTML = '';
             filterResults.style.display = 'block';
+            membershipPlans.style.display = 'block';
             if (e.target.value.length) {
                 audioLibraryContent.style.display = 'none';
                 filterSearchResults(e, edd_downloads);
@@ -163,6 +166,7 @@
                 attachVideoClickHandler(filterResults);
             } else {
                 audioLibraryContent.style.display = 'block';
+                //membershipPlans.style.display = 'none';
             }
         });
     }
