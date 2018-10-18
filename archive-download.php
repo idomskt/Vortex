@@ -1,4 +1,3 @@
-
 <?php 
     add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('archive', get_stylesheet_directory_uri() . '/scripts/archive-template.js', array(), '1.0.0', true);
@@ -29,7 +28,7 @@ add_action('wp_enqueue_scripts', function () {
 <!-- Unlimited Downloads Banner -->
 <div class="outerSection DA-2">
 <div class="innerSection">
-<a href="https://www.vortex-success.com/unlimited-downloads/" target="_blank"><img src="https://www.vortex-success.com/wp-content/uploads/2018/06/Audio-Library-Banner-4.jpg" style="width: 100%; border: 1px solid #333333; box-sizing: border-box;" alt=""></a> 
+<a href="https://www.vortex-success.com/unlimited-downloads/" target="_blank"><img src="https://www.vortex-success.com/wp-content/uploads/2016/10/exclusive-banner.jpg" style="width: 100%; border: 1px solid #333333; box-sizing: border-box;" alt=""></a> 
 </div>
 </div>
 <!-- Tab Container -->
@@ -121,7 +120,7 @@ add_action('wp_enqueue_scripts', function () {
                                 
                                 <div class="sidebarUnlimitedDownloads">
                                     <div class="sidebarBanner">
-                                      <a href="/unlimited-downloads"><img src="https://www.vortex-success.com/wp-content/uploads/2018/06/Archive-Downloads-Sidebar-Banner.jpg" alt="" style="border: 1px solid #333333; box-sizing: border-box;"></a>
+                                      <a href="/unlimited-downloads"><img src="https://www.vortex-success.com/wp-content/uploads/2018/08/Audio-Library-Sidebar-Banner.jpg" alt="" style="border: 1px solid #333333; box-sizing: border-box;"></a>
                                     </div>
                                 </div>
                         </div>
@@ -147,6 +146,98 @@ add_action('wp_enqueue_scripts', function () {
                                     <div id="mostrecent"><h2>Most Recent Uploads</h2>
                                     <?php echo do_shortcode('[downloads number="4" columns="4" exclude_category="910" pagination="false"]'); ?></div>
                                     
+                                    
+                                    <div id="membershipPlans" class="edd_download_columns_4">
+                                   <h2 style="width: 100%;">Unlimited Downloads</h2>
+                                    <div class="edd_download membership-plans-audio-library">
+                                        <div class="edd_download_inner">
+                                            <div class="edd_download_image">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/12/Basic-Plan-Audio-Library-1.jpg" alt=""></a>
+                                                <div class="catInner">
+                                                    <div class="catButtons">
+                                                        <div>
+                                                            <div class="edd_purchase_submit_wrapper">
+                                                                <a href="http://www.vortex-success.com/membership/basic/" class="hoverBuyButton">Start Downloading!</a>
+                                                            </div><!--end .edd_purchase_submit_wrapper-->		
+                                                        </div>       
+                                                    </div>
+                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                                </div>
+                                            </div>
+                                            <h3 class="edd_download_title">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Basic Plan</a>
+                                            </h3>
+                                            <div class="edd_download_excerpt">
+                                                <p>Unlimited downloads of all of our 200+ audio library sessions! High quality, updated regularly, keep files forever!</p>
+                                            </div>
+                                            <div class="edd_download_buy_button_price">
+                                                <p><span class="edd_price">Only &#36;67!</span></p>
+                                            </div>
+                                            <div class="edd_download_buy_button_moreinfo">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                            </div>
+                                        </div>
+                                     </div>
+                                     <div class="edd_download membership-plans-audio-library">
+                                        <div class="edd_download_inner">
+                                            <div class="edd_download_image">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/11/Premium-Plan-Audio-Library-e1512374946139.jpg" alt=""></a>
+                                                <div class="catInner">
+                                                    <div class="catButtons">
+                                                        <div>
+                                                            <div class="edd_purchase_submit_wrapper">
+                                                                <a href="http://www.vortex-success.com/membership/premium/" class="hoverBuyButton">Start Downloading!</a>
+                                                            </div><!--end .edd_purchase_submit_wrapper-->		
+                                                        </div>       
+                                                    </div>
+                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                                </div>
+                                            </div>
+                                            <h3 class="edd_download_title">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Premium Plan</a>
+                                            </h3>
+                                            <div class="edd_download_excerpt">
+                                                <p>Everything in the Basic plan + Unlimited downloads of our exclusive library of audios and videos! High quality, updated regularly, keep files forever!</p>
+                                            </div>
+                                            <div class="edd_download_buy_button_price">
+                                                <p><span class="edd_price">Only &#36;87!</span></p>
+                                            </div>
+                                            <div class="edd_download_buy_button_moreinfo">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                            </div>
+                                        </div>
+                                     </div>
+                                     <div class="edd_download membership-plans-audio-library">
+                                        <div class="edd_download_inner">
+                                            <div class="edd_download_image">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/11/Ultimate-Plan-Audio-Library-e1512374971312.jpg" alt=""></a>
+                                                <div class="catInner">
+                                                    <div class="catButtons">
+                                                        <div>
+                                                            <div class="edd_purchase_submit_wrapper">
+                                                                <a href="http://www.vortex-success.com/membership/ultimate/" class="hoverBuyButton">Start Downloading!</a>
+                                                            </div><!--end .edd_purchase_submit_wrapper-->		
+                                                        </div>     
+                                                    </div>
+                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                                </div>
+                                            </div>
+                                            <h3 class="edd_download_title">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Ultimate Plan</a>
+                                            </h3>
+                                            <div class="edd_download_excerpt">
+                                                <p>Everything in the Basic and Premium plans + Custom Subliminal Session! High quality, updated regularly, keep files forever!</p>
+                                            </div>
+                                            <div class="edd_download_buy_button_price">
+                                                <p><span class="edd_price">Only &#36;197!</span></p>
+                                            </div>
+                                            <div class="edd_download_buy_button_moreinfo">
+                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div>
+                                   
                                     <?php add_filter('the_permalink', 'custom_exclusive_permalink'); ?>
                                         <?php foreach ($categories as $cat) : ?>
                                             <div id="<?php echo $cat->slug; ?>" class="download-category" <?php echo in_array($cat->name, $hidden) ? "hidden" : ''; ?>>
@@ -182,96 +273,7 @@ add_action('wp_enqueue_scripts', function () {
                                         <?php remove_filter('the_permalink', 'custom_exclusive_permalink'); ?>
                                     </div>
                                 </div>
-                                <div id="membershipPlans" class="edd_download_columns_4">
-                                   <h2 style="width: 100%;">Unlimited Downloads</h2>
-                                    <div class="edd_download membership-plans-audio-library">
-                                        <div class="edd_download_inner">
-                                            <div class="edd_download_image">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/12/Basic-Plan-Audio-Library-1.jpg" alt=""></a>
-                                                <div class="catInner">
-                                                    <div class="catButtons">
-                                                        <div>
-                                                            <div class="edd_purchase_submit_wrapper">
-                                                                <a href="http://www.vortex-success.com/membership/basic/" class="hoverBuyButton">Register!</a>
-                                                            </div><!--end .edd_purchase_submit_wrapper-->		
-                                                        </div>       
-                                                    </div>
-                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                                </div>
-                                            </div>
-                                            <h3 class="edd_download_title">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Basic Plan</a>
-                                            </h3>
-                                            <div class="edd_download_excerpt">
-                                                <p>Unlimited downloads of all of our 200+ audio library sessions! High quality, updated regularly, keep files forever!</p>
-                                            </div>
-                                            <div class="edd_download_buy_button_price">
-                                                <p><span class="edd_price">Only &#36;67!</span></p>
-                                            </div>
-                                            <div class="edd_download_buy_button_moreinfo">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                            </div>
-                                        </div>
-                                     </div>
-                                     <div class="edd_download membership-plans-audio-library">
-                                        <div class="edd_download_inner">
-                                            <div class="edd_download_image">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/11/Premium-Plan-Audio-Library-e1512374946139.jpg" alt=""></a>
-                                                <div class="catInner">
-                                                    <div class="catButtons">
-                                                        <div>
-                                                            <div class="edd_purchase_submit_wrapper">
-                                                                <a href="http://www.vortex-success.com/membership/premium/" class="hoverBuyButton">Register!</a>
-                                                            </div><!--end .edd_purchase_submit_wrapper-->		
-                                                        </div>       
-                                                    </div>
-                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                                </div>
-                                            </div>
-                                            <h3 class="edd_download_title">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Premium Plan</a>
-                                            </h3>
-                                            <div class="edd_download_excerpt">
-                                                <p>Everything in the Basic plan + Unlimited downloads of our exclusive library of audios and videos! High quality, updated regularly, keep files forever!</p>
-                                            </div>
-                                            <div class="edd_download_buy_button_price">
-                                                <p><span class="edd_price">Only &#36;87!</span></p>
-                                            </div>
-                                            <div class="edd_download_buy_button_moreinfo">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                            </div>
-                                        </div>
-                                     </div>
-                                     <div class="edd_download membership-plans-audio-library">
-                                        <div class="edd_download_inner">
-                                            <div class="edd_download_image">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/" title=""><img src="https://www.vortex-success.com/wp-content/uploads/2017/11/Ultimate-Plan-Audio-Library-e1512374971312.jpg" alt=""></a>
-                                                <div class="catInner">
-                                                    <div class="catButtons">
-                                                        <div>
-                                                            <div class="edd_purchase_submit_wrapper">
-                                                                <a href="http://www.vortex-success.com/membership/ultimate/" class="hoverBuyButton">Register!</a>
-                                                            </div><!--end .edd_purchase_submit_wrapper-->		
-                                                        </div>     
-                                                    </div>
-                                                <a class="moreInfoHover" href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                                </div>
-                                            </div>
-                                            <h3 class="edd_download_title">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">Unlimited Downloads - Ultimate Plan</a>
-                                            </h3>
-                                            <div class="edd_download_excerpt">
-                                                <p>Everything in the Basic and Premium plans + Custom Subliminal Session! High quality, updated regularly, keep files forever!</p>
-                                            </div>
-                                            <div class="edd_download_buy_button_price">
-                                                <p><span class="edd_price">Only &#36;197!</span></p>
-                                            </div>
-                                            <div class="edd_download_buy_button_moreinfo">
-                                                <a href="https://www.vortex-success.com/unlimited-downloads/">More Information</a>
-                                            </div>
-                                        </div>
-                                     </div>
-                                </div>
+                                
                             </div>
                             <div id="exclusive-library" class="tab-content">	                
                                 <?php include('archive-template-parts/content-exclusive-library.php'); ?>
@@ -284,11 +286,6 @@ add_action('wp_enqueue_scripts', function () {
     </div>    
 </div>
 <!-- End Tabs Container --> 
-
-
-
-
-
 
 
 <?php get_footer(); ?>
